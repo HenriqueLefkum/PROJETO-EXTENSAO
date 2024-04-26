@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex; /* Habilita flexbox para alinhar sidebar e conteúdo */
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: #1e4fa8;
+    padding: 20px;
+    color: #fff;
+    overflow: auto; /* Adiciona barra de rolagem se necessário */
+  }
+  
+  .user-profile {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .user-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-name {
+    font-size: 16px;
+  }
+  
+  .menu-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    background-color: #407cff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #777;
+  }
+  
+  .content {
+    margin-left: 220px;
+    padding: 10em 50em 20em 35em;
+    display: flex;
+  }
+  
+  .table-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  td {
+    background-color: #f2f2f2;
+  }
